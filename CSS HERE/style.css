@@ -1,0 +1,377 @@
+
+.lista1{
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    font-family: "Heebo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+body::before{
+    opacity: 50%;
+}
+
+.logo{
+    width: 100px;
+}
+
+#Menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(to right, #55D6AA, #3AB9FF);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 7vh;
+    align-items: center;
+}
+
+.escritaMenu{
+    font-size: 1.3rem;
+    color:white;
+    font-weight: lighter;
+}
+
+.iconPesquisa{
+    display: flex;
+    flex-direction: row;
+}
+
+.iconPesquisa button{
+    background-color: transparent;
+    border: none;
+}
+
+.iconPesquisa button:hover{
+    cursor: pointer;
+}
+
+.barraPesquisa{
+    display: flex;
+    border: 1px transparent;
+    border-radius: 8px;
+    margin-left: -32em;
+}
+
+span#hamburguer{
+    display: none;
+}
+
+.barraPesquisa::placeholder{
+    opacity: 50%;
+    padding-left: 0.8em;
+}
+
+nav#mobileMenu{
+    display: none;
+}
+
+.containerMain{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    grid-gap: 0.78vw;
+    grid-template-areas: "açoes" "açoes"
+                         "vagas"
+                         "conteudo";
+}
+
+.quadradosvagas{
+    display: flex;
+    grid-area: vagas;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 2.5vw;
+    overflow: hidden;
+    
+}
+
+.h1Vagas{
+    color: #3AB9FF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+.pVagas{
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    
+}
+
+.vagas img{
+    max-width: 100%;
+    height: 60%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 1%;
+}
+
+.estiloavagas{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.7em;
+    font-weight: 550;
+    margin: 2%;
+    
+ }
+
+.estilopvagas{
+    font-size: 0.8rem;
+    color: gray;
+    word-wrap: break-word;
+    max-width: 100%;
+    margin: 2%;
+}
+
+.vagas{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 31vh;
+    height: 35vh;
+    
+}
+
+.quadrados{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-area: açoes;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.quadradoconteudo{
+    display: flex;
+    grid-area: conteudo;
+    border: 1px solid lightgray;
+    margin-right: auto;
+    margin-left: auto;
+    height: 20vh;
+    width: 73vw;
+    border-radius: 0.78em;
+    margin-bottom: 2%;
+    background: linear-gradient(to right, #55D6AA, #3AB9FF);
+    padding-left: 2%;
+    flex-direction: row;
+}
+
+.quadradoconteudo img{
+    height: 100%;
+    width: 100%;
+}
+
+.quadradoconteudo h2{
+    color: white;
+    font-size: 2.3em;
+    font-weight: lighter;
+    margin-bottom: 0.5%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.quadradoconteudo p{
+    color: white;
+    max-width: 34vw;
+    word-wrap: break-word;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.missao{
+    padding-left: 1%;
+    padding-top: 1%;
+}
+.separar{
+    border: 1px solid lightgray;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.visao{
+    padding-left: 2.5%;
+    padding-top: 1%;
+}
+
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "questionario" "coisas" "termos";
+    background-color: #3AB9FF;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+}
+
+footer fieldset{
+    margin-left: 20px;
+    margin-right: auto;
+    border: none;
+    grid-area: questionario;
+}
+
+footer legend{
+    margin-bottom: 12px;
+}
+
+.midia{
+    position: relative;
+    left: 1350px;
+    top: 240px;
+    margin-right: 10px;
+    width: 40px;
+}
+
+footer #imsg{
+    margin-top: 20px;
+}
+
+footer input{
+    border-radius: 5px;
+    border: none;
+}
+
+legend{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#imsg{
+    border-radius: 8px;
+    background-color: white;
+    
+}
+
+textarea{
+    outline: none;
+}
+
+footer #envio{
+    display: block;
+    color: white;
+    background-color: #319BD4;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+footer #envio:active{
+    background-color: blue;
+}
+
+footer > p{
+    border-top: 1px solid white;
+}
+
+footer a{
+    color:white;
+}
+
+
+.copyright{
+    position: relative;
+    top: 8px;
+}
+
+div.ContainerLista{
+    display: flex;
+    flex-direction: row;
+    gap:0.78em;
+    grid-area: coisas;
+    justify-content: center;
+    height: 30vh;
+}
+
+.Lista2{
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vw;
+    font-family: "Mukta", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.termosestilo{
+    align-self: self-end;
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+
+.Lista3{
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vw;
+    font-family: "Mukta", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.containerQuemSomos{
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+    gap: 0.78em;
+}
+
+.containerQuemSomos h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.containerQuemSomos p{
+    font-family: "Mukta", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+footer img{
+    width: 50px;
+    
+}
+
+footer li {
+    font-size: 15px;
+}
+
+
+.vagas a{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.vagas p{
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+

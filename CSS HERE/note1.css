@@ -1,0 +1,93 @@
+@media only screen and (max-width: 768px) {
+    .iconPesquisa{
+        display:none;
+    }
+
+    .logo{
+        width: 90px;
+    }
+
+    .lista1{
+        flex-wrap: wrap;
+    }
+
+    .lista1 a{
+        font-size: 0.6rem;
+    }
+    
+   a.escritaMenu{
+        color: white;
+    }
+
+    .quadrados h1{
+        font-size: 23px;
+    }
+
+    .quadrados p{
+        font-size: 14px;
+    }
+    
+
+    .quadradosvagas{
+        padding: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .quadradosvagas a{
+        font-size: 15px;
+    }
+
+    .quadradosvagas p{
+        font-size: 12px;
+    }
+    
+
+    .missao h2{
+        font-size: 25px;
+    }
+
+    .missao p{
+        font-size: 14px;
+    }
+
+    .visao h2{
+        font-size: 25px;
+    }
+
+    .visao p{
+        font-size: 15px;
+    }
+    
+    footer{
+        grid-template-columns: 1fr;
+    }
+
+    .containerQuemSomos h1{
+        font-size: 20px;
+    }
+
+    .containerQuemSomos p{
+        font-size: 11px;
+    }
+
+    footer img{
+        width: 28px;
+    }
+
+    footer li{
+        font-size: 13px;   
+    }
+
+   
+    }
+
+    .termosestilo p{
+        font-size: 13px;
+    }
+
+    
+
+
+
+
